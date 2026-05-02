@@ -33,8 +33,8 @@ export default function ImageUploader({ imageDataUrl, onImage }: Props) {
         Step 1 · Your photo
       </h2>
       <p className="mt-1 text-sm text-neutral-600">
-        Front-facing, well-lit selfies work best. Your photo never leaves your browser
-        except to be sent to Google&apos;s Gemini API for the try-on.
+        Use a clear, well-lit photo. Selfies work great for makeup &amp; skincare;
+        for clothing try-on, a half- or full-body shot works best.
       </p>
 
       <div

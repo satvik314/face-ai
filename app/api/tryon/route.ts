@@ -17,7 +17,7 @@ type TryOnBody = {
 function buildInstruction(productPrompt: string, productName?: string) {
   const labelLine = productName ? `Product: ${productName}\n` : "";
   return [
-    "You are a virtual try-on artist. The reference image shows a real person's face.",
+    "You are a virtual try-on artist. The reference image shows a real person.",
     "Render a single photorealistic image of THE SAME PERSON with the requested change applied.",
     "Strict requirements:",
     "- Preserve identity exactly: same face shape, bone structure, eye color, skin tone undertone, hair, freckles, moles and pose.",
