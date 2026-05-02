@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export const runtime = "nodejs";
-export const maxDuration = 120;
+export const maxDuration = 60;
 
 const MODEL = "gemini-3-pro-image-preview";
 const ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
